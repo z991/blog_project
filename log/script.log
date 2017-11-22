@@ -1,0 +1,236 @@
+2017-11-22 17:20:13,252 [Thread-2:1348] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\AAAAADjangoproject\blog_project\blog_project\blog\views.py", line 19, in index
+    return render(request,'index.html')
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\base.py", line 208, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\context.py", line 235, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2017-11-22 17:21:47,131 [Thread-2:13128] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\AAAAADjangoproject\blog_project\blog_project\blog\views.py", line 19, in index
+    return render(request,'index.html')
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\base.py", line 208, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\context.py", line 235, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2017-11-22 17:22:09,523 [Thread-2:5680] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\AAAAADjangoproject\blog_project\blog_project\blog\views.py", line 19, in index
+    return render(request,'index.html',locals())
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\base.py", line 208, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\context.py", line 235, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2017-11-22 17:25:07,184 [Thread-2:11712] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\AAAAADjangoproject\blog_project\blog_project\blog\views.py", line 19, in index
+    return render(request,'index.html')
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\base.py", line 208, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\template\context.py", line 235, in bind_template
+    updates.update(processor(self.request))
+TypeError: 'LazySettings' object is not callable
+2017-11-22 20:07:39,457 [Thread-3:13856] [django.request:170] [base:get_response] [WARNING]- Not Found: /amdin
+2017-11-22 21:59:30,352 [Thread-11:10156] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 1516, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 1467, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 1078, in save_model
+    obj.save()
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 710, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 738, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 822, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 861, in _do_insert
+    using=using, raw=raw)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\sql\compiler.py", line 974, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\mysql\base.py", line 129, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2017-11-22 21:59:35,970 [Thread-12:5700] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 1516, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 1467, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 1078, in save_model
+    obj.save()
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 710, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 738, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 822, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 861, in _do_insert
+    using=using, raw=raw)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\sql\compiler.py", line 974, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\mysql\base.py", line 129, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2017-11-22 22:00:26,101 [Thread-15:10604] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 1516, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 1467, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\contrib\admin\options.py", line 1078, in save_model
+    obj.save()
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 710, in save
+    force_update=force_update, update_fields=update_fields)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 738, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 822, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\base.py", line 861, in _do_insert
+    using=using, raw=raw)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\models\sql\compiler.py", line 974, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\mysql\base.py", line 129, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\django\db\backends\mysql\base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\MySQLdb\cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
