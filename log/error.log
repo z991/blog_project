@@ -7,3 +7,28 @@
 2017-11-22 20:07:33,244 [Thread-2:7320] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
 2017-11-22 20:54:00,207 [Thread-2:12420] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
 2017-11-22 21:17:32,875 [Thread-2:12308] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-11-23 16:42:52,865 [Thread-2:17216] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-11-23 16:45:22,125 [Thread-26:3056] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-11-23 16:56:45,753 [Thread-32:11364] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-11-23 16:58:43,443 [Thread-38:10288] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-11-23 16:59:24,664 [Thread-2:9372] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-11-23 17:00:17,315 [Thread-8:6608] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-11-23 17:05:14,023 [Thread-13:10572] [blog.views:18] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-11-23 20:51:52,055 [Thread-2:16844] [blog.views:39] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 20:53:26,122 [Thread-8:9656] [blog.views:39] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 20:54:45,140 [Thread-2:10656] [blog.views:38] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 20:54:46,953 [Thread-3:9972] [blog.views:38] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 20:55:57,441 [Thread-2:11960] [blog.views:38] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 20:56:27,427 [Thread-2:12648] [blog.views:39] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 21:01:04,131 [Thread-2:15664] [blog.views:39] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 21:02:42,171 [Thread-2:2008] [blog.views:37] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 21:02:44,596 [Thread-4:5224] [blog.views:37] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 21:05:52,716 [Thread-3:7256] [blog.views:37] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 21:06:31,752 [Thread-21:13740] [blog.views:37] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 21:07:52,811 [Thread-2:9276] [blog.views:38] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 21:07:56,180 [Thread-3:14004] [blog.views:38] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-11-23 21:32:10,158 [Thread-3:17136] [blog.views:52] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-11-23 21:35:29,615 [Thread-8:10716] [blog.views:52] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-11-23 21:35:46,997 [Thread-15:13904] [blog.views:52] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-11-23 21:38:01,335 [Thread-22:7088] [blog.views:52] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-11-23 21:44:58,608 [Thread-8:12856] [blog.views:52] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id

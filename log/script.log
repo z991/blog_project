@@ -234,3 +234,8 @@ Traceback (most recent call last):
   File "D:\AAAAADjangoproject\studentzscg\venv\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
     raise errorclass, errorvalue
 IntegrityError: (1048, "Column 'user_id' cannot be null")
+2017-11-23 16:42:56,667 [Thread-25:17188] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-11-23 18:58:33,059 [Thread-36:11884] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-11-23 19:16:29,812 [Thread-3:12896] [django.request:170] [base:get_response] [WARNING]- Not Found: /ad/2017/11/175916010945005YPwnjly1fj8qb26xxvj30rs0rsqg8.jpg
+2017-11-23 19:26:26,427 [Thread-18:15528] [django.request:170] [base:get_response] [WARNING]- Not Found: /ad/2017/11/175916010945005YPwnjly1fj8qb26xxvj30rs0rsqg8.jpg
+2017-11-23 21:44:47,819 [Thread-3:8240] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
